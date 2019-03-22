@@ -30,9 +30,9 @@ export default StyleSheet => StyleSheet.extend({
 
   touchContainer: {
     zIndex: 1,
-    width: 70,
-    height: 70,
-    borderRadius: 70,
+    width: 60,
+    height: 60,
+    borderRadius: 60,
     position: 'absolute',
     bottom: -10.00,
     left: (Dimensions.get('window').width / 2) - 35,
