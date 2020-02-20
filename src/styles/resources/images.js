@@ -1,0 +1,15 @@
+export default {
+  "login": require('./images/login.png'),
+  "logo": require('./images/logo.png'),
+  "logo_black": require('./images/logo_black.png'),
+  "organize": require('./images/organize.png'),
+  "participate": require('./images/participate.png'),
+  "screengrab1": require('./images/screengrab-1.png'),
+  "screengrab2": require('./images/screengrab-2.png'),
+  "screengrab3": require('./images/screengrab-3.png'),
+  "screengrab4": require('./images/screengrab-4.png'),
+  "explainerParticipantSlide1": require('./images/explainerParticipantSlide1.png'),
+  "explainerParticipantSlide2": require('./images/explainerParticipantSlide2.png'),
+  "explainerParticipantSlide3": require('./images/explainerParticipantSlide3.png'),
+  "walkthrough": require('./images/walkthrough.png'),
+}
