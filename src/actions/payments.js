@@ -151,6 +151,7 @@ export const createCard = (data) => {
     try {
       const tokenResponse = await stripeApi.post('tokens', qs.stringify(cardData))
       tokenResponseData = tokenResponse.data
+      console.log(tokenResponseData)
     } catch(err) {
       dispatch({
         type: actionTypes.PAYMENTS_ADD_CARD_ERROR,
@@ -190,7 +191,7 @@ export const createCard = (data) => {
 export const getCards = () => {
   return async (dispatch, getState) => {
     const user = getState().user
-
+    console.log(user)
     dispatch({
       type: actionTypes.PAYMENTS_GET_CARDS_START,
     })
