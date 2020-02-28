@@ -95,9 +95,9 @@ export default class Preferences extends React.Component {
           <View style={StyleSheet.singleMargin}>
             <Button type="preferenceLink" text={_('sendFeedback')} onPress={this.onPressSendFeedback} />
             <Button textStyle={{lineHeight: 18}} type="preferenceLink" text={_('privacy')} onPress={this.onPressPrivacy} />
-            {/* TODO: enable deactivate account functionality
+            {
             <Button type="preferenceHighlightLink" text={_('deactivateAccount')} onPress={this.onPressDeactivateAccount} />
-            */}
+            }
           </View>
         </ScrollView>
       </View>
