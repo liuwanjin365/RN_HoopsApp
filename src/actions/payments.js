@@ -274,6 +274,8 @@ export const pay = (event, invite = null) => {
         userId,
       })
 
+      console.log(response)
+
       dispatch({
         type: actionTypes.PAYMENTS_PAY_SUCCESS,
         response: response.data,

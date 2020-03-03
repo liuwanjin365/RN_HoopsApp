@@ -16,6 +16,8 @@ export const create = (eventId) => {
       date: new Date(),
     }
 
+    console.log(requestData)
+
     firebaseDb.update({
       [`requests/${requestKey}`]: requestData,
       [`events/${eventId}/requests/${requestKey}`]: true,
@@ -46,6 +48,7 @@ export const load = (id) => {
 
     database.addListener(`requests/${id}`, 'value', (snapshot) => {
       let request = snapshot.val()
+      console.log(request)
 
       if(!request) {
         //The request has been deleted
