@@ -16,9 +16,10 @@ class Calendar extends Component {
 
   render() {
     let events = Object.keys(this.props.user.organizing).map(id => {
-      console.log(events)
       return this.props.events.eventsById[id]
     }).filter(event => event)
+
+    console.log(this.props.user.organizing);
 
     return (
       <_Calendar

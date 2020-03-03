@@ -21,7 +21,6 @@ class EventRequests extends Component {
       return request && request.user && request.status === 'pending'
     })
 
-    console.log(event);
     console.log(requests);
 
     return (
