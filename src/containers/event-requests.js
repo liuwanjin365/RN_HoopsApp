@@ -21,6 +21,9 @@ class EventRequests extends Component {
       return request && request.user && request.status === 'pending'
     })
 
+    console.log(event);
+    console.log(requests);
+
     return (
       <_EventRequests
         onBack={this.props.onBack}
