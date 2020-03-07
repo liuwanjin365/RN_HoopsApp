@@ -3,7 +3,7 @@ import {AsyncStorage} from 'react-native'
 const common = {
   GOOGLE_PLACES_API_KEY: 'AIzaSyBopRDu051G9W6fqJCwGgzxGICzhzuUxIg',
 
-  REDUCER_VERSION: '123',
+  REDUCER_VERSION: '1.1.0',
   REDUCER_PERSIST: false,
   REDUCER_CONFIG: {
     storage: AsyncStorage,
