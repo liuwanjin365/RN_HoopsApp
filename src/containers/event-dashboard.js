@@ -26,11 +26,11 @@ class EventDashboard extends Component {
   }
 
   onPressGallery() {
-    //this.props.onNavigate('eventGallery', {id: this.props.id});
+    this.props.onNavigate('eventGallery', {id: this.props.id});
   }
 
   onPressFinances() {
-    //this.props.onNavigate('eventFinances', {id: this.props.id});
+    this.props.onNavigate('eventFinances', {id: this.props.id});
   }
 
   render() {
