@@ -13,6 +13,8 @@ class Payments extends Component {
 
   render() {
     return (
+      console.log(this.props.payment)
+
       <_Payments
         cards={this.props.payments.cards}
         onPressRemove={this.props.onPressRemove}

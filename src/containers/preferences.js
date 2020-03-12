@@ -22,6 +22,9 @@ export default connect(
   (state) => ({
     user: state.user,
   }),
+
+  console.log(user)
+  
   (dispatch) => ({
     onLogOut: () => dispatch(userActions.logOut()),
     onNavigate: (key, props, subTab = true) => dispatch(navigationActions.push({key, props}, subTab)),
