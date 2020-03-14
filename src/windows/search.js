@@ -210,6 +210,17 @@ export default class Search extends React.Component {
                   </Text>
                   <Icon name="chevronRightPink"/>
                 </View>
+                <View style={StyleSheet.textInputs.flat.style}>
+                  <Text
+                    style={[
+                      StyleSheet.textInputs.flat.textStyle,
+                      {color: this.props.activity ? undefined : StyleSheet.textInputs.flat.placeholderTextColor},
+                    ]}
+                  >
+                    {this.props.activity ? this.props.activity.name : _('searchActivityExample')}
+                  </Text>
+                  <Icon name="chevronRightPink"/>
+                </View>
               </TouchableHighlight>
 
               <Text style={[StyleSheet.text, StyleSheet.search.titleTextStyle]}>{_('searchWhen')}</Text>
