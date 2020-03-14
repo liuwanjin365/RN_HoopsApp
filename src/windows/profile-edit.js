@@ -34,6 +34,8 @@ export default class ProfileEdit extends React.Component {
       city: this.state.city,
       gender: this.state.gender,
       dob: this.state.dob,
+      address: this.state.address,
+      phone: this.state.phone,
     })
   };
 
