@@ -173,13 +173,13 @@ export default handleActions({
       },
     }
 
-    /*
+    
     //Just select the tab, don't reset it's stack too
     return {
       ...state,
       tabKey: action.key
     };
-    */
+    
   },
 
   [actionTypes.NAV_SHOW_MENU]: (state, action) => {

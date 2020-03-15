@@ -22,6 +22,8 @@ export default handleActions({
     const requestsById = {...state.requestsById} //clone
     delete requestsById[action.id]
 
+    console.log(requestsById)
+
     return {
       ...state,
       requestsById,
