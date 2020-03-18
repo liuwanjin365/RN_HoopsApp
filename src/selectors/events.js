@@ -42,6 +42,7 @@ export const organisedEventsSelector = createSelector(
     requestsSelector,
     invitesSelector,
     usersSelector,
+    usersSelector,
   ],
   formatEvents
 )
@@ -64,6 +65,7 @@ export const nearbySearchEventsSelector = createSelector(
     eventsSelector,
     requestsSelector,
     invitesSelector,
+    usersSelector,
     usersSelector,
   ],
   formatSearchEvents
