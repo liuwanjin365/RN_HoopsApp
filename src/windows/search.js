@@ -26,6 +26,8 @@ export default class Search extends React.Component {
       city: {},
       citiesAutocomplete: [],
       cityCoords: null,
+
+      status: '',
     }
   }
 
@@ -38,7 +40,8 @@ export default class Search extends React.Component {
         this.state.level ||
         this.state.courtType ||
         this.state.cityCoords ||
-        this.state.searchRadius
+        this.state.searchRadius ||
+        this.state.status
       )
     } else {
       return !!this.state.text
