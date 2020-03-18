@@ -20,6 +20,7 @@ export default class Login extends React.Component {
       email: '',
       password: '',
       showPassword: false,
+      status:'',
     }
   }
 
