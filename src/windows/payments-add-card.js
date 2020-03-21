@@ -19,12 +19,12 @@ class PaymentsBankSetup extends Component {
     super(props)
 
     // Stripe test details
-    // this.state = {
-    //   cardNumber: '4242424242424242',
-    //   expiryMonth: '12',
-    //   expiryYear: '17',
-    //   cvc: '123',
-    // }
+     this.state = {
+       cardNumber: '4242424242424242',
+       expiryMonth: '12',
+       expiryYear: '17',
+       cvc: '123',
+     }
 
     this.state = {
       cardNumber: '',
@@ -75,6 +75,9 @@ class PaymentsBankSetup extends Component {
         case 'cvc':
           cvcError = errorComponent
           break
+        case 'ccv':
+            cvcError = errorComponent
+            break          
         default:
           formError = errorComponent
           break
