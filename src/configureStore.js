@@ -45,6 +45,10 @@ const updateReducers = (store) => {
   const storeConfig = config.REDUCER_CONFIG
   const startup = () => store.dispatch(appActions.startup())
 
+  console.log(reducerVersion)
+  console.log(storeConfig)
+  console.log(startup)
+
   // Check to ensure latest reducer version
   AsyncStorage.getItem('reducerVersion').then((localVersion) => {
     if (localVersion !== reducerVersion) {
