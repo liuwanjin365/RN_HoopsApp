@@ -234,9 +234,9 @@ export default class Search extends React.Component {
               <Text style={[StyleSheet.text, StyleSheet.search.titleTextStyle]}>{_('searchGender')}</Text>
               <View style={[StyleSheet.buttons.bar, StyleSheet.singleMarginBottom, {alignSelf: 'center'}]}>
                 <Button type="image" icon="male" active={this.state.gender === 'male'} onPress={() => this.onPressGender('male')}/>
-                <View style={[StyleSheet.buttons.separator, {marginLeft: 10, marginRight: 10}]} />
+                <View style={[StyleSheet.buttons.separator, {marginLeft: 20, marginRight: 20}]} />
                 <Button type="image" icon="female" active={this.state.gender === 'female'} onPress={() => this.onPressGender('female')}/>
-                <View style={[StyleSheet.buttons.separator, {marginLeft: 10, marginRight: 10}]} />
+                <View style={[StyleSheet.buttons.separator, {marginLeft: 20, marginRight: 20}]} />
                 <Button type="image" icon="mixed" active={this.state.gender === 'mixed'} onPress={() => this.onPressGender('mixed')}/>
               </View>
 
