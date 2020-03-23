@@ -45,6 +45,9 @@ class Wallet extends Component {
     const account = this.props.account
     const onNavigate = this.props.onNavigate
 
+    console.log(account)
+    console.log(onNavigate)
+
     return (
       <View style={{flex: 1}}>
 
