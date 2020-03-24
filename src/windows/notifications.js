@@ -17,6 +17,7 @@ class Notifications extends Component {
   constructor(props) {
     super(props)
 
+    this._dataSource = null
     this._dataSource = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
 
     this.state = {

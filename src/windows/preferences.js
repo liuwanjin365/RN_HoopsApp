@@ -61,6 +61,7 @@ export default class Preferences extends React.Component {
           <Button type="alertVertical" text="GBP" onPress={() => this.setCurrency('GBP')} />
           <Button type="alertVertical" text="EUR" onPress={() => this.setCurrency('EUR')} />
           <Button type="alertVertical" text="USD" onPress={() => this.setCurrency('USD')} />
+          <Button type="alertVertical" text="CHN" onPress={() => this.setCurrency('CHN')} />
         </Popup>
 
         <ScrollView>
