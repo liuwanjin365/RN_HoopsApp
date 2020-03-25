@@ -47,6 +47,8 @@ export const convertStructure = (data) => {
   }
   data.imageSrc = imageSrc
 
+  console.log(data)
+
   return data
 }
 
