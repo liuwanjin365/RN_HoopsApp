@@ -69,7 +69,7 @@ export default class Preferences extends React.Component {
             {/*<Button type="preference" text={_('notifications')} icon="chevronRight" onPress={this.props.onPressNotifications}  iconStyle={StyleSheet.singlePadding}/>*/}
             <Button type="preference" text={_('editAccount')} icon="chevronRight" onPress={this.props.onPressEditAccount} iconStyle={StyleSheet.singlePadding}/>
             <Button type="preference" text={_('deviceInfo')} icon="chevronRight" onPress={this.props.onPressDeviceInfo} iconStyle={StyleSheet.singlePadding}/>
-            {/* TODO: enable currency switching
+            { // TODO: enable currency switching
             <Button
               type="preference"
               text={_('currency')}
@@ -87,7 +87,7 @@ export default class Preferences extends React.Component {
                 </Text>
               }
               onPress={this.onPressCurrency}
-            /> */}
+            />}
           </View>
 
           <View style={StyleSheet.singleMargin}>
