@@ -29,6 +29,7 @@ class SignUpFacebookExtra extends Component {
       this.props.change('dob', nextProps.facebookDob)
       this.props.change('gender', nextProps.facebookGender)
       this.props.change('phone', nextProps.facebookPhone)
+      this.props.change('address', nextProps.AddressInput)
 
       // Display an uploaded image or the facebook image
       let image

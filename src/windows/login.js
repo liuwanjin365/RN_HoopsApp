@@ -41,7 +41,8 @@ export default class Login extends React.Component {
     let emailError = [
       'auth/invalid-email',
       'auth/user-not-found',
-      'auth/user-disabled'
+      'auth/user-disabled',
+      'auth/user-enabled'
     ].indexOf(errorCode) !== -1
     let passwordError = [
       'auth/wrong-password',
