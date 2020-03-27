@@ -21,6 +21,10 @@ class Profile extends Component {
     const name = profile.name
     const owner = profile.id === this.props.me.uid
 
+    console.log(profile)
+    console.log(name)
+    console.log(owner)
+
     const age = (date) => {
       return moment().diff(date, 'years')
     }
