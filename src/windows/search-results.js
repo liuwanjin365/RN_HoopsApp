@@ -10,6 +10,7 @@ export default class SearchResults extends React.Component {
     super()
     this.state = {
       showMap: false,
+      status: '',
     }
   }
 

@@ -238,6 +238,7 @@ export default class Search extends React.Component {
                 <Button type="image" icon="female" active={this.state.gender === 'female'} onPress={() => this.onPressGender('female')}/>
                 <View style={[StyleSheet.buttons.separator, {marginLeft: 20, marginRight: 20}]} />
                 <Button type="image" icon="mixed" active={this.state.gender === 'mixed'} onPress={() => this.onPressGender('mixed')}/>
+                <View style={[StyleSheet.buttons.separator, {marginLeft: 20, marginRight: 20}]} />
               </View>
 
               <ListInput
