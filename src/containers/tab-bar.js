@@ -14,6 +14,7 @@ class TabBar extends Component {
     super(props)
     this.state = {
       action: null,
+      status: '',
     }
 
     let createOrSearchAction = {

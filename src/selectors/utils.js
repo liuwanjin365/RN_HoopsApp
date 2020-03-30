@@ -51,6 +51,8 @@ export const formatSearchEvents = (eventSearchObjects, events, requests, invites
       users,
     })
 
+    console.log(event)
+
     return {
       event: {
         ...event,
