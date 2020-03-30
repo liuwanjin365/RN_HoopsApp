@@ -53,6 +53,12 @@ class Home extends Component {
     } else{
       this.props.onNavigate('eventDetails', {id: event.id})
     }
+
+    if (this.props.mode === 'COMPANY') {
+      this.props.onNavigate('eventDashboard', {id: event.id})
+    } else{
+      this.props.onNavigate('eventDetails', {id: event.id})
+    }
   }
 
   render() {
