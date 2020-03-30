@@ -1,7 +1,7 @@
 import {Platform} from 'react-native'
 
 const font = {
-  'Source Sans Pro': {
+  'Arial': {
     weights: {
       Bold: '700',
       SemiBold: '600',
@@ -16,7 +16,7 @@ const fontMaker = (options = {}) => {
   let {weight, style, family} = Object.assign({
     weight: null,
     style: null,
-    family: 'Source Sans Pro'
+    family: 'Arial'
   }, options)
 
   const {weights, styles} = font[family]
