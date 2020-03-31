@@ -8,6 +8,7 @@ class HomeOrganiser extends Component {
 
   render() {
     const noEvents = this.props.events.length === 0
+    console.log(noEvents)
 
     return (
       <View style={{flex: 1}}>

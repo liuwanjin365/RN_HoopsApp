@@ -28,6 +28,7 @@ class PaymentsBankSetup extends Component {
   onDonePress() {
     //Remove any dashes or other non-numerics from sort code
     let sortCode = (this.state.sortCode || '').replace(/[^0-9]/g, '')
+    console.log(sortCode)
 
     this.props.onDonePress({
       firstName: this.state.firstName,
