@@ -100,6 +100,7 @@ class Invitations extends Component {
         <Button type="alertVerticalDefault" text={_('remove')} onPress={() => this.onPressRemove(invite)} />
         <Button type="alertVertical" text={_('eventDetails')} onPress={() => this.onPressEventDetails(invite.event)} />
         <Button type="alertVertical" text={_('userDetails')} onPress={() => this.onPressUserDetails(invite.event.organizer)} />
+        <Button type="alertVerticalDefault" text={_('accept')} onPress={() => this.onPressAccept(invite)} />
       </Popup>
     )
   }
