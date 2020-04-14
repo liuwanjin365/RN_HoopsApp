@@ -11,6 +11,7 @@ export default class FriendsSearch extends React.Component {
     super()
     this.state = {
       search: '',
+      status: '',
     }
   }
 

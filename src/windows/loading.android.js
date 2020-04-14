@@ -10,6 +10,6 @@ export default class Loading extends React.Component {
       <View style={StyleSheet.loading.page}>
         <Text style={StyleSheet.loading.text}>LOADING</Text>
       </View>
-    )
+  )
   }
 }
